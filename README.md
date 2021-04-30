@@ -1,5 +1,3 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
-
 # Restaurant
 
 This project is about a restaurant web page built only with JavaScript. The home page consists of tabs with:
@@ -7,9 +5,9 @@ This project is about a restaurant web page built only with JavaScript. The home
 - The menu
 - Contact Information
 
-![](./scrn/scrn.png)
+![](./scrn.png)
 
-## [Live Link](https://patrick-angelos.github.io/restaurant/)
+## [Live Link](https://rawcdn.githack.com/AkintoyeOlamide/Resturant/ad878932800b3b0ba47e9bc59e6747667cfee62f/dist/index.html)
 
 ## Built With
 
@@ -20,18 +18,16 @@ This project is about a restaurant web page built only with JavaScript. The home
 
 To set up a local copy of the project
 
-- `git clone git@github.com:patrick-angelos/restaurant.git`
-- `cd restaurant`
+- `git clone https://github.com/AkintoyeOlamide/Resturant.git`
+- `cd Restaurant`
 - `npm install` to install dependencies
 
 
 ## Author
 
-👤 **Patrikis Angelos**
+👤 **Akintoye Olamide**
 
-- GitHub: [@patrick-angelos](https://github.com/patrick-angelos)
-- Twitter: [@AngelosPatrikis](https://twitter.com/AngelosPatrikis)
-- LinkedIn: [Angelos Patrikis](https://www.linkedin.com/in/angelos-patrikis-a590a61b5/)
+- GitHub: [akintoye Olamide](https://github.com/AkintoyeOlamide)
 
 ## 🤝 Contributing
 
