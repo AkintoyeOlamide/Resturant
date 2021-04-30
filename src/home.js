@@ -1,4 +1,4 @@
-import bgImg from '..jpg';
+import bgImg from './export.png';
 
 const content = document.querySelector('#content');
 
