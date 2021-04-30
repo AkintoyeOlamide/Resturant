@@ -26,8 +26,8 @@ const Option = (title, price, description) => {
     };
 };
 
-const option1 = Option('Lorem ipsum dolor sit amet', '6,20', 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.');
-const option2 = Option('Lorem ipsum dolor', '6,20', 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem.');
+const option1 = Option('Lorem ipsum dolor sit amet', '120$', 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.');
+const option2 = Option('Lorem ipsum dolor', '100$', 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem.');
 const category1 = MenuCategory('Pizza', pizzaImg, [option1, option2, option1, option2]);
 const category2 = MenuCategory('Pasta', pastaImg, [option1, option2, option1, option2]);
 const category3 = MenuCategory('Burgers', burgerImg, [option1, option2, option1, option2]);
@@ -70,7 +70,7 @@ const createOption = (option) => {
     desc.textContent = option.getDescription();
 
     const container = document.createElement('div');
-    container.classList.add('m-top-10');
+    container.classList.add('m-top-10', 'container');
 
     container.appendChild(title);
     container.appendChild(desc);

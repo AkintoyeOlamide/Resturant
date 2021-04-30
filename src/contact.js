@@ -25,10 +25,16 @@ const contact = () => {
     links.appendChild(fbLink);
 
     const aboutText = document.createElement('p');
-    aboutText.classList.add('center');
-    aboutText.textContent = "You can contact us here, 'adress'";
+    aboutText.classList.add('contact-text1');
+    aboutText.textContent = "You can contact us here; +44 2456357733";
+
+    const contactText = document.createElement('h6');
+    contactText.classList.add('contact-text2');
+    contactText.textContent = "Our UK Adress: plot 10A Totehham Road No4";
+
 
     item.appendChild(aboutText);
+    item.appendChild(contactText);
     item.appendChild(links);
 };
 

@@ -7,8 +7,8 @@ const header = () => {
     const nav = document.createElement('nav');
     nav.classList.add('fixed', 'navbar');
     const restaurant = document.createElement('h1');
-    restaurant.textContent = 'La Pasta';
-    restaurant.classList.add('center');
+    restaurant.textContent = 'Mel-Tea Cu';
+    restaurant.classList.add('header-text');
 
     nav.appendChild(restaurant);
     header.appendChild(nav);
