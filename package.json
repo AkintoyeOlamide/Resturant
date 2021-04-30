@@ -1,0 +1,26 @@
+{
+  "name": "resturant",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack serve --open",
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AkintoyeOlamide/Resturant.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AkintoyeOlamide/Resturant/issues"
+  },
+  "homepage": "https://github.com/AkintoyeOlamide/Resturant#readme",
+  "devDependencies": {
+    "webpack": "^5.36.0",
+    "webpack-cli": "^4.6.0",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
