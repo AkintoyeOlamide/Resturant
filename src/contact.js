@@ -14,7 +14,7 @@ const contact = () => {
 
     const links = document.createElement('h2');
     links.classList.add('center');
-    links.textContent = 'Follow us on:';
+    links.textContent = '';
 
     const instaLink = createIcon('fab', 'fa-instagram');
     const twitterLink = createIcon('fab', 'fa-twitter');
